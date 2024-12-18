@@ -1,0 +1,69 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Quiz App</title>
+    <link rel="stylesheet" href="styles.css">
+</head>
+<body>
+    <!--nav bar -->
+    <nav class="navbar">
+        <div class="logo">
+            <h1>QuizApp</h1>
+        </div>
+        <ul class="nav-links">
+          <li><a href="#home">Home</a></li>
+          <li><a href="#about">About</a></li>
+          <li><a href="#contact">Contact</a></li>
+        </ul>
+        <div class="hamburger" onclick="toggleMenu()">☰</div>
+    </nav>
+
+    <!--notice section-->
+    <section class="notice">
+        <div class="quiz-container">
+            <div class="quiz-header">
+                <h1>Welcome to the Quiz</h1>
+                <p class="quiz-description">
+                    This quiz consists of 100 questions, covering topics from HTML, CSS, Python, JavaScript, and C++.
+                </p>
+            </div>
+
+    </section>
+    
+    <!--main section-->
+    <div class="app">
+        <h1>Best of luck!!!</h1>
+        <div class="quiz">
+            <h2 id="question">Question goes here</h2>
+            <div id="answer-buttons">
+                <button class="btn">Answer 1</button>
+                <button class="btn">Answer 2</button>
+                <button class="btn">Answer 3</button>
+                <button class="btn">Answer 4</button>
+            </div>
+            <button id="next-btn">Next</button>
+        </div>
+    </div>
+
+    <!--footer section-->
+    <footer class="footer">
+        <div class="footer-content">
+          <p>&copy; 2024 QuizApp. All rights reserved.</p>
+          <ul class="footer-links">
+            <li><a href="#privacy">Privacy Policy</a></li>
+            <li><a href="#terms">Terms of Service</a></li>
+          </ul>
+        </div>
+
+        <div class="social-icons">
+            <img src="github.svg" class="icon">
+            <img src="instagram.svg" class="icon">
+            <img src="linkedin-copy.svg"  class="icon">
+        </div>
+    </footer>
+      
+    <script src="scripts.js"></script>
+</body>
+</html>
